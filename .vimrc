@@ -1,4 +1,3 @@
-
 " Syntaxic coloration
 syn on
 
@@ -10,6 +9,9 @@ set background=dark
 
 " Hilight search
 set hlsearch
+
+" Show matching brackets
+set autoindent
 
 " Keep indentation on next line
 set autoindent

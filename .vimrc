@@ -4,6 +4,10 @@ syn on
 " Print line number
 set number
 
+" 80-column indication (in purple)
+set cc=80
+highlight ColorColumn ctermbg=5
+
 " Adapt coloration to dark background
 set background=dark
 

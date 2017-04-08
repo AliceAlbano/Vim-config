@@ -14,15 +14,19 @@ set background=dark
 " Hilight search
 set hlsearch
 
-" Show matching brackets
-set autoindent
-
-" Keep indentation on next line
-set autoindent
-
 " Print invisible caracters
 set list listchars=nbsp:·,tab:¬·,trail:¤,extends:▶,precedes:◀
 
-" Mess
+
+"""Indentation
+" When indenting with '>', use 4 spaces width
 set shiftwidth=4
-set ts=4
+
+" Show existing tab with 4 spaces width
+set tabstop=4
+
+" On pressing tab, insert 4 spaces
+set expandtab
+
+" Keep indentation on next line
+set autoindent
